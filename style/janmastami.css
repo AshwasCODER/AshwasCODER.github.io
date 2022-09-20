@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header {
+    padding: 30px;
+
+}
+
+body{
+    background-image: repeating-linear-gradient(135deg, rgba(0, 163, 255, 0.14) 0px, rgba(0, 163, 255, 0.14) 1px, transparent 1px, transparent 11px), repeating-linear-gradient(45deg, rgba(0, 163, 255, 0.14) 0px, rgba(0, 163, 255, 0.14) 1px, transparent 1px, transparent 11px), linear-gradient(90deg, hsl(183, 0%, 100%), hsl(183, 0%, 100%));
+}
+
+main {
+
+    text-align: center;
+}
+
+
+
+header h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10vh;
+    color: #fafafa;
+    background: linear-gradient(to right, #ffb20b, #f047d4);
+    padding: 2vh 2vw;
+    border-radius: 3vh;
+    text-transform: capitalize;
+    box-shadow: 0 2.5vh 2.5vh 0 rgba(0, 0, 0, 0.35);
+    text-shadow: #000;
+    border: solid #fafafa;
+    border-width: 1vh;
+    transition: 0.15s;
+}
+
+h1:hover{
+
+    background: linear-gradient(to right, #5c72ee, #f0f5ba);
+    transition: 0.15s;
+}
+
+
+h2 {
+    max-width: 90vw;
+    margin: 4vh 0 ;
+    padding: 1vh 0;
+    border: solid rgba(0, 16, 241, 0.815);
+    color: #fafafa;
+    border-width: 0.4vh;
+    border-radius: 10vh;
+    text-transform: capitalize;
+    box-shadow: 0 2.5vh 2.5vh 0 rgba(0, 0, 0, 0.35);
+    background: linear-gradient(to right, #005aa7, #fffde4);
+    transition: 0.20s;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+h2:hover {
+    background-image: repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(151, 26, 210),rgb(57, 199, 205));
+    transition: 0.20s;
+    text-shadow: rgba(0, 0, 0, 0.616);
+}
+
+.Kphotos1 {
+
+    max-width: 90vw;
+    margin: 5vh 10vw;
+}
+
+.Kphotos1 img {
+    height: 9vw;
+    width: 18vw;
+    border: solid #ff0000;
+    border-radius: 20px;
+    border-width: 1vh;
+    cursor: pointer;
+    transition: 0.35s;
+} 
+
+.Kphotos1 img:hover {
+    height: 10.5vw;
+    width: 19.5vw;
+    border: solid #54d0d4;
+    margin: 0 1vw;
+    border-width: 1vh;
+    transition: 0.35s;
+} 
+
+.Paragraph {
+    max-width: 90vw;
+    margin: 5vh 4vw;
+}
+
+.Kphotos2 {
+
+    max-width: 90vw;
+    margin: 5vh 4vw;
+}
+
+.Kphotos2 img {
+
+    height: 7vw;
+    width: 14vw;
+    border: solid #ff0000;
+    border-radius: 15px;
+    border-width: 0.5vh;
+    cursor: pointer;
+    transition: 0.35s;
+
+}
+
+.Kphotos2 img:hover {
+
+    height: 8.5vw;
+    width: 15.5vw;
+    border: solid #28e2f0;
+    margin: 0 1vw;
+    border-width: 0.5vh;
+    transition: 0.35s;
+
+}

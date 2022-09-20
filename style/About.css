@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+
+    background-image: url(image/social4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.About {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About .content img {
+
+    height: auto;
+    width: 65vh;
+    max-width: 100%;
+    border-radius: 6vh;
+    border: solid white;
+    border-width: 0.5vh;
+    box-shadow: 0 2.5vh 2.5vh 0 rgba(0, 0, 0, 0.35);
+   
+}
+
+.text {
+
+    max-width: 100%;
+    width: 550px;
+    padding: 0 10px;
+
+
+}
+
+.content{
+
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text h1 {
+
+    color: #ffcc74;
+    font-size: 75px;
+    margin-bottom: 55px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.text h5 {
+
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.text p {
+
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: #ffcc74;
+    color:  black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px ;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid #ffcc74;
+    color: #ffcc74;
+    transition: .4s;
+    cursor: pointer;
+}
