@@ -94,7 +94,7 @@ h2 {
 }
 
 h2:hover {
-    background-image: repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(151, 26, 210),rgb(57, 199, 205));
+    background-image: repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(157.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), linear-gradient(90deg, rgb(151, 26, 210), rgb(57, 199, 205));
     transition: 0.35s;
     text-shadow: rgba(0, 0, 0, 0.616);
 }
@@ -114,7 +114,7 @@ h3 {
 }
 
 h3:hover {
-    background-image: repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(151, 26, 210),rgb(57, 199, 205));
+    background-image: repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(157.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), linear-gradient(90deg, rgb(151, 26, 210), rgb(57, 199, 205));
     transition: 0.35s;
     text-shadow: rgba(0, 0, 0, 0.616);
 }
@@ -124,7 +124,7 @@ footer {
     background-blend-mode: overlay, overlay, normal;
     border-radius: 3vh;
     overflow: hidden;
-    margin: 0vh 2.5vw;
+    margin: 10vh 3vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -152,14 +152,14 @@ footer a {
 }
 
 
-.light{
+.light {
     max-width: 45vw;
     float: left;
     margin-left: 6vw;
 }
 
 
-.light img{
+.light img {
     height: 9vw;
     width: 9vw;
     border: solid #3366ff;
@@ -169,7 +169,7 @@ footer a {
     transition: 0.35s;
 }
 
-.light img:hover{
+.light img:hover {
     border: solid #80ffff;
     height: 10.5vw;
     width: 10.5vw;
@@ -178,13 +178,13 @@ footer a {
     transition: 0.35s;
 }
 
-.durga{
+.durga {
     max-width: 45vw;
     float: right;
     margin-right: 6vw;
 }
 
-.durga img{
+.durga img {
     height: 9vw;
     width: 9vw;
     border: solid #3366ff;
@@ -193,7 +193,7 @@ footer a {
     transition: 0.35s;
 }
 
-.durga img:hover{
+.durga img:hover {
     border: solid #80ffff;
     height: 10.5vw;
     width: 10.5vw;
@@ -202,13 +202,13 @@ footer a {
     transition: 0.35s;
 }
 
-.krishna{
+.krishna {
     max-width: 45vw;
     float: right;
     margin-right: 6vw;
 }
 
-.krishna img{
+.krishna img {
     height: 9vw;
     width: 9vw;
     border: solid #3366ff;
@@ -217,7 +217,7 @@ footer a {
     transition: 0.35s;
 }
 
-.krishna img:hover{
+.krishna img:hover {
     border: solid #80ffff;
     height: 10.5vw;
     width: 10.5vw;
@@ -226,13 +226,13 @@ footer a {
     transition: 0.35s;
 }
 
-.holi{
+.holi {
     max-width: 45vw;
     float: left;
     margin-left: 6vw;
 }
 
-.holi img{
+.holi img {
     height: 9vw;
     width: 9vw;
     border: solid #3366ff;
@@ -241,7 +241,7 @@ footer a {
     transition: 0.35s;
 }
 
-.holi img:hover{
+.holi img:hover {
     border: solid #80ffff;
     height: 10.5vw;
     width: 10.5vw;
@@ -250,12 +250,12 @@ footer a {
     transition: 0.35s;
 }
 
-.ganesh{
+.ganesh {
     max-width: 90vw;
     margin: 2vh 5vw;
 }
 
-.ganesh img{
+.ganesh img {
     height: 18vw;
     width: 18vw;
     border: solid #3366ff;
@@ -265,7 +265,7 @@ footer a {
     transition: 0.35s;
 }
 
-.ganesh img:hover{
+.ganesh img:hover {
     border: solid #80ffff;
     height: 20vw;
     width: 20vw;

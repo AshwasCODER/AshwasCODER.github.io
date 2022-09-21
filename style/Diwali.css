@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -79,18 +80,19 @@ h2:hover {
 }
 
 .photos1 img {
-    height: 9vw;
-    width: 18vw;
+    height: 15vw;
+    width: 15vw;
     border: solid #ff0000;
     border-radius: 20px;
     border-width: 1vh;
     cursor: pointer;
     transition: 0.35s;
+    margin: 1.5vw;
 } 
 
 .photos1 img:hover {
-    height: 10.5vw;
-    width: 19.5vw;
+    height: 18vw;
+    width: 18vw;
     border: solid #54d0d4;
     margin: 0 1vw;
     border-width: 1vh;
@@ -109,24 +111,23 @@ h2:hover {
 }
 
 .photos2 img {
-
-    height: 7vw;
-    width: 14vw;
+    height: 17.5vw;
+    width: 17.5vw;
     border: solid #ff0000;
-    border-radius: 15px;
-    border-width: 0.5vh;
+    border-radius: 20px;
+    border-width: 1vh;
     cursor: pointer;
     transition: 0.35s;
+    margin: 1.5vw;
 
 }
 
 .photos2 img:hover {
-
-    height: 8.5vw;
-    width: 15.5vw;
-    border: solid #28e2f0;
+    height: 20vw;
+    width: 20vw;
+    border: solid #54d0d4;
     margin: 0 1vw;
-    border-width: 0.5vh;
+    border-width: 1vh;
     transition: 0.35s;
 
 }

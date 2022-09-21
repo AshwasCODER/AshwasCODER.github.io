@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Sans+Pro:wght@400;600&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
 
     background-image: url(image/style4.jpg);
 }
@@ -35,15 +35,15 @@ a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    box-shadow: 4px 4px 8px -1px rgb(81, 57, 189) ,
-    -4px -4px 8px -1px rgb(255, 83, 83);
+    box-shadow: 4px 4px 8px -1px rgb(81, 57, 189),
+        -4px -4px 8px -1px rgb(255, 83, 83);
 
     border: 1px solid rgba(0, 0, 0, 0);
     transition: 0.5s;
 
 }
 
-a i{
+a i {
     font-size: 35px;
     color: #777;
 }
@@ -51,11 +51,11 @@ a i{
 a:hover {
 
     box-shadow: inset 4px 4px 6px -1px rgb(80, 57, 189),
-                inset -4px -4px 6px -1px rgb(255, 83, 83),
-                -0.5px -0.5px 0px rgba(255,255,255,1),
-                0.5px 0.5px 0px rgba(0,0,0,0.15),
-                0px 12px 10px rgba(0,0,0,0.05);
-    
+        inset -4px -4px 6px -1px rgb(255, 83, 83),
+        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px rgba(0, 0, 0, 0.05);
+
     border: 1px solid rgba(0, 0, 0, 0.01);
 
     transform: translateY(2px);
@@ -65,22 +65,22 @@ a:hover i {
     transform: scale(0.90);
 }
 
-a:hover .fa-facebook{
+a:hover .fa-facebook {
     color: #3b5998;
 }
 
-a:hover .fa-twitter{
+a:hover .fa-twitter {
     color: #00acee;
 }
 
-a:hover .fa-whatsapp{
+a:hover .fa-whatsapp {
     color: #4fce5d;
 }
 
-a:hover .fa-instagram{
+a:hover .fa-instagram {
     color: #f14843;
 }
 
-a:hover .fa-youtube{
+a:hover .fa-youtube {
     color: #f00;
 }

@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -31,14 +32,14 @@ header h1 {
     border-width: 1vh;
 }
 
-h1:hover{
+h1:hover {
 
     background: linear-gradient(to right, #cc0822, #eeff00);
     transition: 0.15s;
 }
 
 
-body{
+body {
     background-image: repeating-linear-gradient(135deg, rgba(0, 163, 255, 0.14) 0px, rgba(0, 163, 255, 0.14) 1px, transparent 1px, transparent 11px), repeating-linear-gradient(45deg, rgba(0, 163, 255, 0.14) 0px, rgba(0, 163, 255, 0.14) 1px, transparent 1px, transparent 11px), linear-gradient(90deg, hsl(183, 0%, 100%), hsl(183, 0%, 100%));
 }
 
@@ -48,10 +49,21 @@ main {
     text-align: center;
 }
 
+.para {
+    display: flex;
+    justify-content: left;
+    font-size: 2vw;
+    text-align: left;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+}
 
 h2 {
     max-width: 90vw;
-    margin: 4vh 0 ;
+    margin: 4vh 0;
     padding: 1vh 0;
     border: solid rgba(0, 16, 241, 0.815);
     color: #fafafa;
@@ -67,7 +79,7 @@ h2 {
 
 
 h2:hover {
-    background-image: repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(264,0%,88%,0.03) 0px, hsla(264,0%,88%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(151, 26, 210),rgb(57, 199, 205));
+    background-image: repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(112.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(45deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(22.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(135deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(157.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, hsla(264, 0%, 88%, 0.03) 0px, hsla(264, 0%, 88%, 0.03) 1px, transparent 1px, transparent 12px), linear-gradient(90deg, rgb(151, 26, 210), rgb(57, 199, 205));
     transition: 0.20s;
     text-shadow: rgba(0, 0, 0, 0.616);
 }
@@ -80,19 +92,20 @@ h2:hover {
 
 
 .Dphoto1 img {
-    height: 9vw;
-    width: 18vw;
+    height: 15vw;
+    width: 15vw;
     border: solid #ff0000;
     border-radius: 20px;
     border-width: 1vh;
     cursor: pointer;
     transition: 0.35s;
-} 
+    margin: 1.5vw;
+}
 
 
 .Dphoto1 img:hover {
-    height: 10.5vw;
-    width: 19.5vw;
+    height: 18vw;
+    width: 18vw;
     border: solid #54d0d4;
     margin: 0 1vw;
     border-width: 1vh;
@@ -119,23 +132,24 @@ section p {
 
 .Dphotos2 img {
 
-    height: 7vw;
-    width: 14vw;
+    height: 17.5vw;
+    width: 17.5vw;
     border: solid #ff0000;
-    border-radius: 15px;
-    border-width: 0.5vh;
+    border-radius: 20px;
+    border-width: 1vh;
     cursor: pointer;
     transition: 0.35s;
+    margin: 2.5vw;
 
 }
 
 .Dphotos2 img:hover {
 
-    height: 8.5vw;
-    width: 15.5vw;
-    border: solid #28e2f0;
+    height: 20vw;
+    width: 20vw;
+    border: solid #54d0d4;
     margin: 0 1vw;
-    border-width: 0.5vh;
+    border-width: 1vh;
     transition: 0.35s;
 
 }
